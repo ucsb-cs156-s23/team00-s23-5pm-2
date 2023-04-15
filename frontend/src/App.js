@@ -7,6 +7,7 @@ import SanFranciscoPage from "main/pages/SanFranciscoPage";
 import DubaiPage from "main/pages/DubaiPage";
 
 import RapidCityPage from "main/pages/RapidCityPage";
+import LosAngelesPage from "main/pages/LosAngelesPage";
 
 import "bootstrap/dist/css/bootstrap.css";
 
@@ -23,6 +24,7 @@ function App() {
         <Route exact path="/towns/SanFrancisco" element={<SanFranciscoPage />} />
         <Route exact path="/towns/Dubai" element={<DubaiPage />} />
         <Route exact path="/towns/RapidCity" element={<RapidCityPage />} />
+        <Route exact path="/towns/LosAngeles" element={<LosAngelesPage />} />
       </Routes>
     </BrowserRouter>
   );
